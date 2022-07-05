@@ -1,0 +1,9 @@
+1657037994540:reg<-read.csv("regrex1.csv")
+1657037998116:plot(reg$y~reg$x, main="regression", xlab="x", ylab="y", pch=19, col="goldenrod")
+1657038001341:lm(formula=reg$y~reg$x)
+1657038005655:plot(reg$y~reg$x, main="regression with line", xlab="x", ylab="y", pch=19, col="purple")
+1657038009270:model<-lm(formula=reg$y~reg$x)
+1657038010433:=
+1657038011490:abline(model)
+1657038017689:model<-lm(formula=reg$y~reg$x)
+1657038019111:abline(model)
